@@ -1,16 +1,16 @@
-module.exports = {
-      rules: {
-        "no-unused-vars": "off",
-      },
-    }
-{  "root": true,
+{
+  "root": true,
+
   "extends": "next",
   "rules": {
     "no-unused-vars": [
-      "error",
-      {				"caughtErrors": "none"
+      "off",
+      {
+				"caughtErrors": "none"
       }
     ],
     "react/display-name": 0
   }
+
+
 }
