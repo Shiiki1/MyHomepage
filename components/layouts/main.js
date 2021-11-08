@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import NavBar from '../navbar.js'
+// eslint-disable-next-line no-unused-vars
 import NoSsr from '../no-ssr'
 import Footer from '../footer'
 import { Box, Container } from '@chakra-ui/react'
