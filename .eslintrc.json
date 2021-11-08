@@ -1,12 +1,9 @@
-{
-  "root": true,
+{  "root": true,
   "extends": "next",
   "rules": {
     "no-unused-vars": [
       "error",
-      {
-
-				"caughtErrors": "none"
+      {				"caughtErrors": "none"
       }
     ],
     "react/display-name": 0

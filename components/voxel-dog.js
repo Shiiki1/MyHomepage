@@ -12,6 +12,7 @@ const VoxelDog = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
+  // eslint-disable-next-line no-unused-vars
   const [_camera, setCamera] = useState()
   const [target] = useState(new THREE.Vector3(0, -0.25, 0))
   const [initialCameraPosition] = useState(
@@ -22,6 +23,7 @@ const VoxelDog = () => {
     )
   )
   const [scene] = useState(new THREE.Scene())
+  // eslint-disable-next-line no-unused-vars
   const [_controls, setControls] = useState()
 
   const handleWindowResize = useCallback(() => {
