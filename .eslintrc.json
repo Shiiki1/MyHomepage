@@ -1,4 +1,4 @@
-{
+
   "root": true,
   "extends": "next",
   "rules": {
@@ -12,5 +12,3 @@
     ],
     "react/display-name": 0
   }
-
-}
