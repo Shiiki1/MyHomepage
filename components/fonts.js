@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { Global } from '@emotion/react'
 
 const Fonts = () => (
