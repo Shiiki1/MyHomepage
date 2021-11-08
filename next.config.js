@@ -1,3 +1,6 @@
 module.exports = {
-  reactStrictMode: true
+  reactStrictMode: true,
+  rules: {
+       "no-unused-vars": "off",
+     },
 }
