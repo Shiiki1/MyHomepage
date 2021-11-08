@@ -78,6 +78,7 @@ const VoxelDog = () => {
         receiveShadow: true,
         castShadow: true
       }).then(() => {
+        animate()
         setLoading(false)
       })
 
