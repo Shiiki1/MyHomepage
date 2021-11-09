@@ -1,13 +1,20 @@
 import { Container, Badge, Link, List, ListItem, Video  } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
+import videobg from '../../libs/theme'
 import { Title, WorkImage, WorkVideo, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 
+// <video id="videobg" autoPlay muted loop>
+//   <source src="/images/works/bgvid.mp4" type="video/mp4"/>
+//   </video>
 
 const Work = () => (
   <Layout title="NBA Metrics Dashboard">
+
+
+
 
     <Container>
       <Title>

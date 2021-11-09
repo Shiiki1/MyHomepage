@@ -30,6 +30,14 @@ const components = {
       })
     }
 }
+const videobg = {
+height: 2000,
+width: 1000,
+left: 0,
+top: 0,
+padding: 'none',
+position: 'absolute',
+}
 
 const fonts = {
   heading: "'M PLUS Rounded 1c'"
@@ -50,7 +58,8 @@ const theme = extendTheme({
   styles,
   components,
   colors,
-  fonts
+  fonts,
+  videobg
 })
 
 export default theme
