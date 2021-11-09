@@ -13,9 +13,6 @@ import Layout from '../../components/layouts/article'
 const Work = () => (
   <Layout title="NBA Metrics Dashboard">
 
-
-
-
     <Container>
       <Title>
         NBA Metrics Dasboard <Badge>2021</Badge>
