@@ -5,6 +5,7 @@ import { Button,
 				 Heading,
 				 Image,
 				 Link,
+// eslint-disable-next-line no-unused-vars
 				 SimpleGrid,
 				 List,
 				 ListItem,
@@ -15,6 +16,7 @@ import { ChevronRightIcon} from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph.js'
 import { BioSection, BioYear } from '../components/bio'
+// eslint-disable-next-line no-unused-vars
 import { GridItem} from '../components/grid-item'
 import {
 	IoLogoLinkedin,
@@ -28,7 +30,7 @@ const Page = () => {
 			<Box borderRadius='lg'
 			 bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
 			 p={3} mb={6} align="center">
-				Interact with the ball :)
+				Higher Resolution Monitors may display the Website too small. Adjust with Ctrl + or - 
 			</Box>
 
 			<Box display={{ md: 'flex' }}>
